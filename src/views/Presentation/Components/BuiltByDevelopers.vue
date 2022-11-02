@@ -13,18 +13,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ms-lg-5">
-            <h4 class="text-white">Built by developers</h4>
-            <h1 class="text-white">Complex Documentation</h1>
+            <h4 class="text-white">Für Senioren</h4>
+            <h1 class="text-white">Voller Support</h1>
             <p class="lead text-white opacity-8">
-              From colors, cards, typography to complex elements, you will find
-              the full documentation. Play with the utility classes and you will
-              create unlimited combinations for our components.
+              Sind Sie von den neusten Technologien und Geräten verwirrt und können
+              sich deren Anwendung nicht gewöhnen? Melden Sie sich bei uns und erhalten
+              top support für Ihre Probleme, und wir behandeln dies zusammen mit Ihnen.
+          
             </p>
             <a
               href="https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
               class="text-white icon-move-right"
             >
-              Read docs
+              Informiere dich 
               <i class="fas fa-arrow-right text-sm ms-1"></i>
             </a>
           </div>
