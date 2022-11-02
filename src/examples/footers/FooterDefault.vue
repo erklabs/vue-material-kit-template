@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2",
+      name: "Zenior",
       logo: logoDark,
       route: "/"
     })
@@ -49,71 +49,51 @@ defineProps({
     },
     default: () => [
       {
-        name: "company",
+        name: "organisation",
         items: [
           {
-            name: "about us",
+            name: "über uns",
             href: "https://www.creative-tim.com/presentation"
-          },
-          {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
-          },
-          {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
           },
           { name: "blog", href: "https://www.creative-tim.com/blog" }
         ]
       },
       {
-        name: "resources",
+        name: "ressourcen",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
+          { name: "illustrationen", href: "https://iradesign.io/" },
           {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
-          },
-          {
-            name: "affiliate program",
+            name: "partnerprogramm",
             href: "https://www.creative-tim.com/affiliates/new"
           }
         ]
       },
       {
-        name: "help & support",
+        name: "hilfe & support",
         items: [
           {
-            name: "contact us",
+            name: "kontaktiere uns",
             href: "https://www.creative-tim.com/contact-us"
           },
           {
-            name: "knowledge center",
+            name: "wissenszentrum",
             href: "https://www.creative-tim.com/knowledge-center"
-          },
-          {
-            name: "custom development",
-            href: "https://services.creative-tim.com/"
-          },
-          {
-            name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
           }
         ]
       },
       {
-        name: "legal",
+        name: "rechtlich",
         items: [
           {
-            name: "terms & conditions",
+            name: "bedingungen & konditionen",
             href: "https://www.creative-tim.com/terms"
           },
           {
-            name: "privacy policy",
+            name: "datenschutzrichtlinien",
             href: "https://www.creative-tim.com/privacy"
           },
           {
-            name: "licenses (EULA)",
+            name: "lize nzen",
             href: "https://www.creative-tim.com/license"
           }
         ]

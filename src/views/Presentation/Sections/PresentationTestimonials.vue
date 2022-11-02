@@ -6,13 +6,13 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto text-center">
-          <h2 class="mb-0">Trusted by over</h2>
+          <h2 class="mb-0">Vertrauen von über</h2>
           <h2 class="text-gradient text-success mb-3">
-            1,679,477+ web developers
+            1'000+ Nutzer
           </h2>
           <p class="lead">
-            Many Fortune 500 companies, startups, universities and governmental
-            institutions love Creative Tim's products.
+            Unser Support wurde schon von übe 1'000 Nutzern angefragt und sie konnten sich alle mit 
+            unserer Hilfe mit neuen Technologien zurechtfinden. 
           </p>
         </div>
       </div>

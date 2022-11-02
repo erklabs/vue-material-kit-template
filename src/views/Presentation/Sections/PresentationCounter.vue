@@ -11,9 +11,8 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="sdsd"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
-                  covered"
+                title="Supporter"
+                description="Werde von über 70+ Supportern unterstützt."
                 :count="70"
                 suffix="+"
                 :duration="3000"
@@ -23,9 +22,8 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Design Blocks"
-                description="Mix the sections, change the colors and unleash your
-                  creativity"
+                title="Veranstaltungen"
+                description="Monatliche Events über technologien und Lernveranstaltungen"
                 :count="15"
                 suffix="+"
                 :duration="3000"
@@ -35,9 +33,8 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
+                title="Standorte"
+                description="Brauchst du Hilfe vor ort? Besuche uns doch!"
                 :count="4"
                 :duration="3000"
               />

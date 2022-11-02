@@ -17,7 +17,7 @@ const props = defineProps({
     default: () => ({
       route: "https://www.creative-tim.com/product/vue-material-kit",
       color: "bg-gradient-success",
-      label: "Anmeldung"
+      label: "Support"
     })
   },
   transparent: {
@@ -134,12 +134,12 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        Zenior
       </RouterLink>
       <a
         href="https://www.creative-tim.com/product/vue-material-kit-pro"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
-        >Buy Now</a
+        >Support</a
       >
       <button
         class="navbar-toggler shadow-none ms-2"
