@@ -175,7 +175,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Informationen
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -198,36 +198,36 @@ watch(
                       <div
                         class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1"
                       >
-                        Landing Pages
+                        Support Möglichkeiten
                       </div>
                       <RouterLink
-                        :to="{ name: 'about' }"
+                        :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>About Us</span>
+                        <span>Telefonisch</span>
                       </RouterLink>
                       <RouterLink
                         :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>Contact Us</span>
+                        <span>Lokal</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'author' }"
+                        :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>Author</span>
+                        <span>Online</span>
                       </RouterLink>
                       <div
                         class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0 mt-3"
                       >
-                        Account
+                        Über uns
                       </div>
                       <RouterLink
                         :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>Sign In</span>
+                        <span>Partner</span>
                       </RouterLink>
                     </div>
                   </div>
@@ -237,7 +237,7 @@ watch(
                 <div
                   class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0"
                 >
-                  Landing Pages
+                  Support Möglichkeiten
                 </div>
                 <RouterLink
                   :to="{ name: 'about' }"
@@ -285,7 +285,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Sections
+              Kurse
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -768,7 +768,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Docs
+              Online-Leitfäden
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -794,11 +794,10 @@ watch(
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
-                        Getting Started
+                        Erste Schritte
                       </h6>
                       <span class="text-sm"
-                        >All about overview, quick start, license and
-                        contents</span
+                        >Übersicht für gebräuchliche Apps</span
                       >
                     </a>
                   </li>
@@ -810,10 +809,10 @@ watch(
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
-                        Foundation
+                        Grundlagen
                       </h6>
                       <span class="text-sm"
-                        >See our colors, icons and typography</span
+                        >Bring dir die Technologien selber bei</span
                       >
                     </a>
                   </li>
@@ -825,11 +824,10 @@ watch(
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
-                        Components
+                        Weiter Quellen
                       </h6>
                       <span class="text-sm"
-                        >Explore our collection of fully designed
-                        components</span
+                        >Sind Sie schon forgeschritten? Dann sind Sie hier richtig.</span
                       >
                     </a>
                   </li>

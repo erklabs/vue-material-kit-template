@@ -21,14 +21,10 @@
                     Wollen Sie Support für Ihre technischen Fragen?
                 </h3>
                 <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
-                </p>
+                  Nehmen Sie dann Kontakt mit uns auf, um so schnell wie möglich technische Hilfe für Ihre Fragen und Schwierigkeiten zu erhalten.                </p>
 
                 <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
+                  href="/pages/landing-pages/contact-us"
                   class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
                   >Anmeldung</a
                 >

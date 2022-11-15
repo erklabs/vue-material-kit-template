@@ -11,8 +11,7 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
             1'000+ Nutzer
           </h2>
           <p class="lead">
-            Unser Support wurde schon von übe 1'000 Nutzern angefragt und sie konnten sich alle mit 
-            unserer Hilfe mit neuen Technologien zurechtfinden. 
+            Mehr als 1.000 Personen haben unsere Hilfe in Anspruch genommen, und sie alle konnten sich mit unserer Unterstützung neue Technologien aneignen.
           </p>
         </div>
       </div>

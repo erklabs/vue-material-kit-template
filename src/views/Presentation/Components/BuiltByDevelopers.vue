@@ -16,10 +16,7 @@
             <h4 class="text-white">Für Senioren</h4>
             <h1 class="text-white">Voller Support</h1>
             <p class="lead text-white opacity-8">
-              Sind Sie von den neusten Technologien und Geräten verwirrt und können
-              sich deren Anwendung nicht gewöhnen? Melden Sie sich bei uns und erhalten
-              top support für Ihre Probleme, und wir behandeln dies zusammen mit Ihnen.
-          
+              Sind Sie von den neuesten Technologien und Geräten verblüfft und können sich nicht an deren Einsatz gewöhnen? Wenden Sie sich an uns, um fachkundige Unterstützung bei Ihren Herausforderungen zu erhalten, und wir werden sie gemeinsam mit Ihnen lösen.
             </p>
             <a
               href="https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"

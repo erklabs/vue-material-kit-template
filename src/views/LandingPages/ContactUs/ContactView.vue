@@ -6,7 +6,7 @@ import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 //image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
+import image from "@/assets/img/kontaktPage.jpg";
 
 //material components
 import MaterialInput from "@/components/MaterialInput.vue";
@@ -62,14 +62,13 @@ onMounted(() => {
                 <div
                   class="bg-gradient-success shadow-success border-radius-lg p-3"
                 >
-                  <h3 class="text-white text-success mb-0">Contact us</h3>
+                  <h3 class="text-white text-success mb-0">Kontaktiere uns</h3>
                 </div>
               </div>
               <div class="card-body">
                 <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
+                  Für weitere Fragen, auch zu Partnerschafts-
+                  möglichkeiten, senden Sie bitte eine E-Mail an info@zenior.li oder verwenden Sie unser Kontaktformular.
                 </p>
                 <form id="contact-form" method="post" autocomplete="off">
                   <div class="card-body p-0 my-3">
@@ -78,8 +77,8 @@ onMounted(() => {
                         <MaterialInput
                           class="input-group-static mb-4"
                           type="text"
-                          label="Full Name"
-                          placeholder="Full Name"
+                          label="Voller Name"
+                          placeholder="Voller Name"
                         />
                       </div>
                       <div class="col-md-6 ps-md-2">
@@ -87,7 +86,7 @@ onMounted(() => {
                           class="input-group-static mb-4"
                           type="email"
                           label="Email"
-                          placeholder="hello@creative-tim.com"
+                          placeholder="hallo@zenior.li"
                         />
                       </div>
                     </div>
@@ -96,8 +95,8 @@ onMounted(() => {
                         id="message"
                         class="input-group-static mb-4"
                         :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
+                        placeholder="Beschreiben Sie Ihr Problem in mindestens 250 Zeichen"
+                        >Wie können wir Ihnen helfen??</MaterialTextArea
                       >
                     </div>
                     <div class="row">
@@ -106,7 +105,7 @@ onMounted(() => {
                           variant="gradient"
                           color="success"
                           class="mt-3 mb-0"
-                          >Send Message</MaterialButton
+                          >Nachricht senden</MaterialButton
                         >
                       </div>
                     </div>

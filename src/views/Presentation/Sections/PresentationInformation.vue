@@ -23,7 +23,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="Rufe uns an oder komm vorbei."
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: './pages/landing-pages/contact-us',
                   label: 'Kontakt',
                 },
               ]"
@@ -35,29 +35,26 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
             <DefaultInfoCard
               icon="content_copy"
               title="Lokaler Treffpunkt"
-              description="Nicht nur können Sie uns telefonisch erreichen, sonder auch lokal vor ort support vorhanden."
+              description="Sie können uns nicht nur telefonisch erreichen, sondern auch durch Hilfe vor Ort.Nicht nur können Sie uns telefonisch erreichen, sonder auch lokal vor ort support vorhanden."
             />
             <DefaultInfoCard
               icon="flip_to_front"
-              title="Bootstrap 5 Ready"
-              description="The world’s most popular front-end open source toolkit,
-                  featuring Sass variables and mixins."
+              title="Geschulte Fachkräfte"
+              description="Sie können sich darauf verlassen, dass Sie durch unsere Auswahl- und Schulungsprozesse unserer Fachkräfte angemessen unterstützt werden."
             />
           </div>
           <div class="row justify-content-start mt-5">
             <DefaultInfoCard
               class="mt-3"
               icon="price_change"
-              title="Save Time & Money"
-              description="Creating your design from scratch with dedicated designers can
-                be very expensive. Start with our Design System."
+              title="Zeit und Geld sparen"
+              description="Ersparen Sie sich den Gang zu den kostenpflichtigen Hotlines und erwerben Sie stattdessen bei uns neue Fähigkeiten für den Alltag."
             />
             <DefaultInfoCard
               class="mt-3"
               icon="devices"
-              title="Fully Responsive"
-              description="Regardless of the screen size, the website content will
-                  naturally fit the given resolution."
+              title="Online Hilfe"
+              description="Wir können auch zusammenarbeiten, um Ihre Probleme über das Internet zu lösen."
             />
           </div>
         </div>
