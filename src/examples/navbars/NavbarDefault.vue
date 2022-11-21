@@ -318,9 +318,9 @@ watch(
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Page Sections
+                              Online Kurse
                             </h6>
-                            <span class="text-sm">See all sections</span>
+                            <span class="text-sm">Alle Kurse</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -335,13 +335,13 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'page-headers' }"
                       >
-                        Page Headers
+                        Grundlagen
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'page-features' }"
                       >
-                        Features
+                        Apps
                       </RouterLink>
                     </div>
                   </li>
@@ -360,9 +360,9 @@ watch(
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Navigation
+                              Monatliche Kurse
                             </h6>
-                            <span class="text-sm">See all navigations</span>
+                            <span class="text-sm">Alle Kurse</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -377,19 +377,19 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'navigation-navbars' }"
                       >
-                        Navbars
+                        Grundlagen
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'navigation-navtabs' }"
                       >
-                        Nav Tabs
+                        Apps
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'navigation-pagination' }"
                       >
-                        Pagination
+                        Fortgeschritten
                       </RouterLink>
                     </div>
                   </li>
@@ -408,9 +408,9 @@ watch(
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Input Areas
+                              Kurse auf Anfrage
                             </h6>
-                            <span class="text-sm">See all input areas</span>
+                            <span class="text-sm">Alle Möglichkeiten</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -425,145 +425,13 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'inputareas-inputs' }"
                       >
-                        Inputs
+                        Gruppen
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'inputareas-forms' }"
                       >
-                        Forms
-                      </RouterLink>
-                    </div>
-                  </li>
-                  <li
-                    class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0"
-                  >
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="javascript:;"
-                    >
-                      <div class="d-flex">
-                        <div
-                          class="w-100 d-flex align-items-center justify-content-between"
-                        >
-                          <div>
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
-                            >
-                              Attention Catchers
-                            </h6>
-                            <span class="text-sm">See all examples</span>
-                          </div>
-                          <img
-                            :src="downArrow"
-                            alt="down-arrow"
-                            class="arrow"
-                          />
-                        </div>
-                      </div>
-                    </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'ac-alerts' }"
-                      >
-                        Alerts
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'ac-modals' }"
-                      >
-                        Modals
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'ac-tooltips-popovers' }"
-                      >
-                        Tooltips & Popovers
-                      </RouterLink>
-                    </div>
-                  </li>
-                  <li
-                    class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0"
-                  >
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="javascript:;"
-                    >
-                      <div class="d-flex">
-                        <div
-                          class="w-100 d-flex align-items-center justify-content-between"
-                        >
-                          <div>
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
-                            >
-                              Elements
-                            </h6>
-                            <span class="text-sm">See all elements</span>
-                          </div>
-                          <img
-                            :src="downArrow"
-                            alt="down-arrow"
-                            class="arrow"
-                          />
-                        </div>
-                      </div>
-                    </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-avatars' }"
-                      >
-                        Avatars
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-badges' }"
-                      >
-                        Badges
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-breadcrumbs' }"
-                      >
-                        Breadcrumbs
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-buttons' }"
-                      >
-                        Buttons
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-button-groups' }"
-                      >
-                        Button Groups
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-dropdowns' }"
-                      >
-                        Dropdowns
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-progress-bars' }"
-                      >
-                        Progress Bars
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-toggles' }"
-                      >
-                        Toggles
-                      </RouterLink>
-                      <RouterLink
-                        class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-typography' }"
-                      >
-                        Typography
+                        Einzelperson
                       </RouterLink>
                     </div>
                   </li>
