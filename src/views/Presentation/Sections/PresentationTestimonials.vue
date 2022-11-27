@@ -19,8 +19,8 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
         <DefaultReviewCard
           name="Nick Willever"
           date="1 day ago"
-          review='"This is an excellent product, the documentation is excellent and
-          helped me get things done more efficiently."'
+          review='"Dies ist ein hervorragendes Produkt, der Serice ist ausgezeichnet 
+          und hat mir geholfen, Dinge effizienter zu erledigen."'
           :rating="5.0"
         />
         <DefaultReviewCard
@@ -28,19 +28,17 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
           color="bg-gradient-success"
           name="Shailesh Kushwaha"
           date="1 week ago"
-          review='"I found solution to all my design needs from Creative Tim. I
-                  use them as a freelancer in my hobby projects for fun! And its
-                  really affordable, very humble guys !!!"'
+          review='"Ich habe bei Zenior die Lösung für alle meine
+           technischen Bedürfnisse gefunden. Und es ist wirklich 
+           erschwinglich, sehr bescheiden Jungs !!!"'
           :rating="5.0"
         />
 
         <DefaultReviewCard
           name="Samuel Kamuli"
           date="3 weeks ago"
-          review='"Great product. Helped me cut the time to set up a site. I
-                  used the components within instead of starting from scratch. I
-                  highly recommend for developers who want to spend more time on
-                  the backend!."'
+          review='"Toller
+           Service."'
           :rating="5.0"
         />
       </div>
