@@ -207,7 +207,7 @@ watch(
                         <span>Telefonisch</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'contactus' }"
+                        :to="{ name: 'kurse' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Lokal</span>
@@ -670,10 +670,10 @@ watch(
                     </a>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
-                    >
+                    <RouterLink
+                        :to="{ name: 'kurse' }"
+                        class="dropdown-item border-radius-md"
+                      >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
@@ -682,7 +682,7 @@ watch(
                       <span class="text-sm"
                         >Bring dir die Technologien selber bei</span
                       >
-                    </a>
+                    </RouterLink>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
