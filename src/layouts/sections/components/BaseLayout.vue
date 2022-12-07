@@ -2,6 +2,7 @@
 import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import CenteredFooter from "@/examples/footers/FooterCentered.vue";
 import Breadcrumbs from "@/examples/Breadcrumbs.vue";
+import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 defineProps({
   breadcrumb: {
@@ -28,5 +29,5 @@ defineProps({
       </div>
     </div>
   </div>
-  <CenteredFooter />
+  <DefaultFooter />
 </template>

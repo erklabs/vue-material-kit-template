@@ -207,7 +207,7 @@ watch(
                         <span>Telefonisch</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'kurse' }"
+                        :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Lokal</span>
@@ -339,7 +339,7 @@ watch(
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'page-features' }"
+                        :to="{ name: 'navigation-navbars' }"
                       >
                         Apps
                       </RouterLink>
@@ -381,7 +381,7 @@ watch(
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'navigation-navtabs' }"
+                        :to="{ name: 'navigation-navbars' }"
                       >
                         Apps
                       </RouterLink>
@@ -671,7 +671,7 @@ watch(
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
                     <RouterLink
-                        :to="{ name: 'kurse' }"
+                        :to="{ name: 'navigation-navbars' }"
                         class="dropdown-item border-radius-md"
                       >
                       <h6
